@@ -124,7 +124,7 @@ function processSegmentation(canvas, segmentation) {
 var modelHasLoaded = false;
 var model = undefined;
 
-model = bodyPix.load (objectRemovalProperties).then(function (loadedModel) {
+model = segmentaionModel.load (objectRemovalProperties).then(function (loadedModel) {
   model = loadedModel;
   modelHasLoaded = true;
 
